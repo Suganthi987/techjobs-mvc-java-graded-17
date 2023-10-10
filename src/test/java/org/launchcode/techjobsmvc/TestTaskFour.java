@@ -72,7 +72,7 @@ public class TestTaskFour {
     /*
      * Searching by all fields for "ruby" should return 4 results
      * */
-    @Test
+     @Test
     public void testFourthSearchTestCase() throws Exception {
         mockMvc.perform(post("/search/results")
                         .param("searchType", "all")
