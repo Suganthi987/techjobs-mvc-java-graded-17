@@ -53,7 +53,7 @@
             </thead>
             <tbody>
             <!-- Loop through the jobs list and display each job -->
-            <tr th:each="job : ${jobs}">
+            <tr th:each="job : ${jobs}" >
                 <td th:text="${job.employer}"></td>
                 <td th:text="${job.location}"></td>
                 <td th:text="${job.positionType}"></td>
